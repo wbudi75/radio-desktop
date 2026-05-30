@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Radio Ibnul Qoyyim</title>
+  <meta name="description" content="Radio Ibnul Qoyyim - Streaming kajian dan dakwah Islam secara online." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Basic security/privacy hints for static site -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="radio-card" aria-label="Radio online player">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">IQ</div>
+        <div>
+          <p class="eyebrow">Live Streaming</p>
+          <h1>Radio Ibnul Qoyyim</h1>
+        </div>
+      </div>
+
+      <p class="subtitle">
+        Streaming kajian dan dakwah Islam. 
+      </p>
+
+      <div class="status-box">
+        <span id="statusDot" class="status-dot"></span>
+        <span id="statusText">Siap memutar radio</span>
+      </div>
+
+      <div class="player-box">
+        <audio id="radioPlayer" preload="none" controls>
+          <source src="https://azuracast.iqbpn.com/radio/8000/radio.mp3" type="audio/mpeg" />
+          Browser Anda tidak mendukung audio player.
+        </audio>
+      </div>
+
+      <div class="controls">
+        <button id="playBtn" type="button">Play Radio</button>
+        <button id="stopBtn" type="button" class="secondary">Pause</button>
+      </div>
+
+      <div class="info-grid">
+        <div>
+          <span class="label">Stream</span>
+          <strong>Online Radio</strong>
+        </div>
+
+        <div>
+          <span class="label">Status</span>
+          <strong id="connectionStatus">Standby</strong>
+        </div>
+
+        <div class="now-playing-box">
+          <span class="label">Sedang Diputar</span>
+          <strong id="nowPlayingTitle">Memuat informasi...</strong>
+        </div>
+      </div>
+
+      <p class="small-note">
+        Jika audio tidak berjalan otomatis, gunakan tombol play pada browser.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Radio Ibnul Qoyyim. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

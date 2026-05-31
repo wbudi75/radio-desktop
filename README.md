@@ -28,15 +28,11 @@ Contoh:
 
 ## Stream dan API
 
-Aplikasi ini memakai stream AzuraCast:
--https://azuracast.iqbpn.com/radio/8000/radio.mp3
-
-API now playing:
--https://azuracast.iqbpn.com/api/nowplaying/1
--Jika aplikasi tidak menampilkan judul atau jumlah pendengar, pastikan API AzuraCast di atas masih aktif dan bisa diakses dari browser.
+Aplikasi ini memakai stream AzuraCast: https://azuracast.iqbpn.com/radio/8000/radio.mp3
+API now playing: https://azuracast.iqbpn.com/api/nowplaying/1
 
 ## Struktur Project
-.
+
 ├── .github
 │   └── workflows
 │       └── release.yml

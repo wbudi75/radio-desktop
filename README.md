@@ -43,7 +43,9 @@ API now playing: https://azuracast.iqbpn.com/api/nowplaying/1
 
 ## Requirement Development
 Untuk build di Linux/Pop!_OS/Ubuntu/Debian, install dependency berikut.
+
 sudo apt update
+
 sudo apt install -y \
   libwebkit2gtk-4.1-dev \
   build-essential \
